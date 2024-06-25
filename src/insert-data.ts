@@ -4,7 +4,7 @@ import { getClient } from "./utils"
 async function createEnteries() {
     const client = await getClient()
 
-    const insertUserText = `INSERT INTO users (emaiul, password) VALUES ($1, $2) RETURNING id`;
+    const insertUserText = `INSERT INTO users (email, password) VALUES ($1, $2) RETURNING id`;
     const userValues = ['rahuldudi1349@gmail.com', 'hashed_password'];
 
     let response = await client.query(insertUserText, userValues)
