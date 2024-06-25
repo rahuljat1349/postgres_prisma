@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/pg": "^8.11.6",
+    "pg": "^8.12.0"
+  },
+  "name": "postgres_prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
